@@ -12,7 +12,7 @@ const resolvers = {
         }
     },
     Mutation:{
-        logIn: async (parent, { email, password }) => {
+        login: async (parent, { email, password }) => {
             // find user by unique email
             const existingUser = await User.findOne({ email })
             if ( !existingUser ) {
@@ -27,6 +27,7 @@ const resolvers = {
             return{ token, user: existingUser }
         },
         addUser: async (parent, args) => {
+            console.log(args)
             const newUser = await User.create(args)
             const token = signToken(newUser);
             return { token, user: newUser}
