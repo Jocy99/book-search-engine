@@ -27,7 +27,8 @@ const resolvers = {
             return{ token, user: existingUser }
         },
         addUser: async (parent, args) => {
-            console.log(args)
+            console.log({args}, 'is this running in the backend ')
+            
             const newUser = await User.create(args)
             const token = signToken(newUser);
             return { token, user: newUser}
@@ -62,3 +63,5 @@ const resolvers = {
         }
     }
 }
+
+module.exports = resolvers

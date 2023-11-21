@@ -34,7 +34,7 @@ const SignupForm = () => {
         }
       });
       if (error) {
-        console.log(error);
+        console.log({error}, 'does this run? ');
       }
       Auth.login(data.addUser.token);
     } catch (err) {
