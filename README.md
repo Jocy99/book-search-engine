@@ -89,7 +89,7 @@ Visit `http://localhost:3001/graphql` in your browser to access the GraphQL Play
 
 ## Contributing
 
-Feel free to contribute by opening issues or submitting pull requests. Follow the guidelines outlined in the [CONTRIBUTING.md](CONTRIBUTING.md) file.
+Feel free to contribute by opening issues or submitting pull requests. Special thank you to the SMU bootcamp team who supported me with starter code!
 
 ## License
 
