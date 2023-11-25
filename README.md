@@ -2,11 +2,9 @@
 
 ## Overview
 
-This project is a fully functioning book search engine that leverages the Google Books API. Originally built as a RESTful API using the MERN stack (MongoDB, Express.js, React, and Node.js), it has been refactored to utilize GraphQL with Apollo Server for enhanced performance and flexibility. Here is the link to my deployed website: https://mysupercoolbooksearchengine-2766b913b12f.herokuapp.com/
-![Screenshot (212)](https://github.com/Jocy99/book-search-engine/assets/133434768/dd72dac7-e203-4e4d-9871-d52099edb50f)
+This project is a fully functioning book search engine that leverages the Google Books API. Originally built as a RESTful API using the MERN stack (MongoDB, Express.js, React, and Node.js), it has been refactored to utilize GraphQL with Apollo Server for enhanced performance and flexibility.
 
 ## Features
-
 
 - **Google Books API Integration**: Search and retrieve book information from the Google Books API.
 - **React Front End**: A user-friendly interface for interacting with the book search engine.
@@ -15,6 +13,10 @@ This project is a fully functioning book search engine that leverages the Google
 - **RESTful API (Original)**: Legacy RESTful API for book search functionality (kept for reference).
 - **GraphQL API (Refactored)**: Improved API using GraphQL and Apollo Server, providing a more efficient and powerful query system.
 
+## Deployment
+ Here is the link to my deployed website: https://mysupercoolbooksearchengine-2766b913b12f.herokuapp.com/
+![Screenshot (212)](https://github.com/Jocy99/book-search-engine/assets/133434768/dd72dac7-e203-4e4d-9871-d52099edb50f)
+ 
 ## Getting Started
 
 ### Prerequisites
